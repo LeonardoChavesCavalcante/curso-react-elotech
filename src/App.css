@@ -1,14 +1,32 @@
-.App {
-  text-align: center;
+.PanelFormTatuiter {
+  box-sizing: border-box;
+  margin: 3px;  
+  padding: 10px;  
+  background-color: #222;
+  color: white;
+  
+  
+}
+Label{
+  color: white;
+}                           
+
+
+.AppTatuiter {  
+  padding-top: 20px;
+  margin: 10p   x;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.App-foto-perfil {  
+  height: 80px;
+}
 
 .App-header {
-  background-color: #222;
+  background-color:  antiquewhite;
   height: 150px;
   padding: 20px;
   color: white;
@@ -21,7 +39,17 @@
 .App-intro {
   font-size: large;
 }
+.Link {
+  font-size:10;
+}
 
+.HeaderTatuiter {  
+  color:#222;
+}
+
+.myButton{
+  margin:5px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
